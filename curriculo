@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="cu.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Douglas Glauciano rodrigues Junior</h1>
+        <p>
+           Email: seuemail@exemplo.com <br>
+           Telefone: (+55) 11 95720-1070 <br>
+           GitHub: <a href="https://github.com/FuturoTexugo">FuturoTexugo</a><br>
+           <img src="https://avatars.githubusercontent.com/u/151675662?v=4" id="img" alt="Jujutsu Kaisen" >
+        </p>
+    
+        <div class="section">
+            <h2 class="section-title">Resumo Profissional</h2>
+            <p>Sem Experiências profissionais no momento. Objetivo de trabalhar como desenvolvedor de joogos. <br>
+                Jogador rank ouro league of legends, mono kassadin off tank de colheita
+            </p>
+        </div>
+        <div class="section">
+            <h2 class="section-title">Educação</h2>
+            <h3>Nome da Instituição - Curso</h3>
+            <p>Cursando 2 ano do ensino médio na escola e.e martin edgio damy, integrado com curso técnico de desenvolvimento de sistemas <br> 
+                conclusão no ano de 2025.</p>
+        </div>
+        <div class="section">
+            <h2 class="section-title">Habilidades</h2>
+            <ul>
+                <li>Conhecimento Inglês médio-avançado</li>
+                <li> Conhecimento básico em html, python, css, javascript, sqlite</li>
+                <li>Rank ouro no lol</li>
+                <li>4 Honras no lol</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+    background-color: black;
+}
+
+h1, h2, h3 {
+    color: lightblue;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+#img{
+    float: right;
+    align-items: right;
+    float: top;
+    margin-top: -17%;
+    border-radius: 39px;
+    margin-left: 170px;
+}
+p{
+    color:aliceblue
+}
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+li{
+    color: aliceblue;
+}
